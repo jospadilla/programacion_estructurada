@@ -1,1 +1,19 @@
+La Cartelera del Cine (Anidado en el SINO) 
+El programa de la taquilla debe preguntar (Leer) la edad (Variable) del cliente.
+Si (Condicional) el cliente tiene 18 años o más, muestra (Escribir): "Acceso total: Puedes ver películas de Terror, Acción y Animación."
+Si no, el programa revisa (anidado) si tiene 13 años o más. Si es así, muestra: "Acceso medio: Puedes ver películas de Acción (PG-13) y Animación."
+Si no cumple ninguna de las dos (es decir, tiene menos de 13), muestra: "Acceso restringido: Solo puedes ver películas de Animación Familiar."
 
+algoritmo taquilla
+  Definir edad como entero
+Escribir "¿Buenos Diàs cuantos años tienes?"
+  Leer edad
+SI edad >= 18 entonces
+Escribir "acceso total: puedes ver peliculas de terror, accion y animacion"
+sino
+si edad >= 13 entonces
+ESCRIBIR "acceso medio: puedes ver peliculas de accion (PG-13) y amimacion"
+  sino
+ESCRIBIR "acceso restringido : solo puedes ver peliculas de animacion familia ."
+finsi
+FinAlgoritmo
