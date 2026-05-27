@@ -1,1 +1,17 @@
+El programa simulará a un padre de familia y debe preguntar (Leer) si el estudiante arregló su cuarto (Variable 1 para Sí, 2 para No).
+Si (Condicional) arregló el cuarto, el programa le pregunta (Leer de nuevo) si ya terminó sus deberes (Variable nueva, 1 para Sí, 2 para No).
+Si terminó los deberes, muestra (Escribir): "¡Excelente! Tienes permiso para ir a la fiesta."
+Si no, muestra: "Cuarto limpio, pero sin deberes no hay fiesta. A estudiar."
+Si no arregló el cuarto desde el principio, muestra directamente: "Tu cuarto es un desastre. Estás castigado, no vas a ningún lado."
 
+AlgoritmoPermisoAPadre
+Definir cuarto, deberes como entero
+Escribir "¿Ya arreglaste el cuarto?" (1 para si, 2 para no):"
+Leer cuarto
+Si cuarto == 1
+  Escribir "¿Ya terminaste los deberes? (1 para si, 2 para no)"
+Leer deberes
+Si deberes == 1 entonces 
+  Escribir "Excelente tienes permiso para ir a la fiesta."
+Sino
+  Escribir "Cuarto limpio pero sin deberes no hay fiesta. A estudiar."
